@@ -26,9 +26,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-rwrnc4rszo5*#d@agkrus#v%h5!zcxj4sdj*!@$sdu!dprchd4"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['karambel.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -135,4 +135,4 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'REST API для работы с данными о горных перевалах.',
     'VERSION': '1.0.0',
 }
-SITE_URL = "https://karambel.pythonanywhere.com"
+
